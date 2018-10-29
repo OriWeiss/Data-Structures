@@ -1,0 +1,280 @@
+Author: Ori Weiss
+Date: 3/27/2018
+
+********SORT BY PRIORITY********
+
+"C:\Program Files\Java\jdk1.8.0_161\bin\java" "-javaagent:C:\Program Files (x86)\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar=57478:C:\Program Files (x86)\IntelliJ IDEA 2017.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Users\Ori's Lenovo\Desktop\School\comp_151\lab_08\out\production\lab_08" Lab08.SchedulingSimulation
+***STARTING THE SIMULATION WITH PRIORITY MODE SET TO SORT_BY_PRIORITY***
+
+Time Marker: 0  waiting: 0
+    Created:  Job #0 Priority (2) Created at 0, Time Left 1
+    Executing:  Job #0 Priority (2) Created at 0, Time Left 1
+    Completed: Job #0 at time 0
+Time Marker: 1  waiting: 0
+    Created:  Job #1 Priority (3) Created at 1, Time Left 5
+    Executing:  Job #1 Priority (3) Created at 1, Time Left 5
+Time Marker: 2  waiting: 0
+    Executing:  Job #1 Priority (3) Created at 1, Time Left 4
+Time Marker: 3  waiting: 0
+    Executing:  Job #1 Priority (3) Created at 1, Time Left 3
+Time Marker: 4  waiting: 0
+    Created:  Job #2 Priority (1) Created at 4, Time Left 1
+    Executing:  Job #2 Priority (1) Created at 4, Time Left 1
+    Completed: Job #2 at time 4
+Time Marker: 5  waiting: 0
+    Executing:  Job #1 Priority (3) Created at 1, Time Left 2
+Time Marker: 6  waiting: 0
+    Created:  Job #3 Priority (3) Created at 6, Time Left 4
+    Executing:  Job #1 Priority (3) Created at 1, Time Left 1
+    Completed: Job #1 at time 6
+Time Marker: 7  waiting: 0
+    Executing:  Job #3 Priority (3) Created at 6, Time Left 4
+Time Marker: 8  waiting: 0
+    Executing:  Job #3 Priority (3) Created at 6, Time Left 3
+Time Marker: 9  waiting: 0
+    Executing:  Job #3 Priority (3) Created at 6, Time Left 2
+Time Marker: 10  waiting: 0
+    Created:  Job #4 Priority (3) Created at 10, Time Left 5
+    Executing:  Job #3 Priority (3) Created at 6, Time Left 1
+    Completed: Job #3 at time 10
+Time Marker: 11  waiting: 0
+    Created:  Job #5 Priority (1) Created at 11, Time Left 5
+    Executing:  Job #5 Priority (1) Created at 11, Time Left 5
+Time Marker: 12  waiting: 1
+    Executing:  Job #5 Priority (1) Created at 11, Time Left 4
+Time Marker: 13  waiting: 1
+    Executing:  Job #5 Priority (1) Created at 11, Time Left 3
+Time Marker: 14  waiting: 0
+    Executing:  Job #4 Priority (3) Created at 10, Time Left 5
+Time Marker: 15  waiting: 0
+    Executing:  Job #4 Priority (3) Created at 10, Time Left 4
+Time Marker: 16  waiting: 0
+    Executing:  Job #4 Priority (3) Created at 10, Time Left 3
+Time Marker: 17  waiting: 0
+    Executing:  Job #4 Priority (3) Created at 10, Time Left 2
+Time Marker: 18  waiting: 0
+    Executing:  Job #4 Priority (3) Created at 10, Time Left 1
+    Completed: Job #4 at time 18
+Time Marker: 19  waiting: 0
+    Executing:  Job #5 Priority (1) Created at 11, Time Left 2
+Time Marker: 20  waiting: 0
+    Created:  Job #6 Priority (2) Created at 20, Time Left 3
+    Executing:  Job #5 Priority (1) Created at 11, Time Left 1
+    Completed: Job #5 at time 20
+Time Marker: 21  waiting: 0
+    Executing:  Job #6 Priority (2) Created at 20, Time Left 3
+Time Marker: 22  waiting: 0
+    Executing:  Job #6 Priority (2) Created at 20, Time Left 2
+Time Marker: 23  waiting: 0
+    Executing:  Job #6 Priority (2) Created at 20, Time Left 1
+    Completed: Job #6 at time 23
+Time Marker: 24  waiting: 0
+    Executing: NONE
+Time Marker: 25  waiting: 0
+    Executing: NONE
+Time Marker: 26  waiting: 0
+    Executing: NONE
+Time Marker: 27  waiting: 0
+    Executing: NONE
+Time Marker: 28  waiting: 0
+    Executing: NONE
+Time Marker: 29  waiting: 0
+    Executing: NONE
+Time Marker: 30  waiting: 0
+    Executing: NONE
+Time Marker: 31  waiting: 0
+    Executing: NONE
+Time Marker: 32  waiting: 0
+    Executing: NONE
+Time Marker: 33  waiting: 0
+    Executing: NONE
+Time Marker: 34  waiting: 0
+    Created:  Job #7 Priority (1) Created at 34, Time Left 1
+    Executing:  Job #7 Priority (1) Created at 34, Time Left 1
+    Completed: Job #7 at time 34
+Time Marker: 35  waiting: 0
+    Executing: NONE
+Time Marker: 36  waiting: 0
+    Executing: NONE
+Time Marker: 37  waiting: 0
+    Executing: NONE
+Time Marker: 38  waiting: 0
+    Executing: NONE
+Time Marker: 39  waiting: 0
+    Executing: NONE
+Time Marker: 40  waiting: 0
+    Executing: NONE
+Time Marker: 41  waiting: 0
+    Executing: NONE
+Time Marker: 42  waiting: 0
+    Executing: NONE
+Time Marker: 43  waiting: 0
+    Executing: NONE
+Time Marker: 44  waiting: 0
+    Executing: NONE
+Time Marker: 45  waiting: 0
+    Executing: NONE
+Time Marker: 46  waiting: 0
+    Executing: NONE
+Time Marker: 47  waiting: 0
+    Executing: NONE
+Time Marker: 48  waiting: 0
+    Executing: NONE
+Time Marker: 49  waiting: 0
+    Executing: NONE
+Time Marker: 50  waiting: 0
+    Executing: NONE
+Time Marker: 51  waiting: 0
+    Executing: NONE
+Time Marker: 52  waiting: 0
+    Created:  Job #8 Priority (2) Created at 52, Time Left 2
+    Executing:  Job #8 Priority (2) Created at 52, Time Left 2
+Time Marker: 53  waiting: 0
+    Created:  Job #9 Priority (1) Created at 53, Time Left 4
+    Executing:  Job #9 Priority (1) Created at 53, Time Left 4
+Time Marker: 54  waiting: 1
+    Created:  Job #10 Priority (4) Created at 54, Time Left 5
+    Executing:  Job #9 Priority (1) Created at 53, Time Left 3
+Time Marker: 55  waiting: 2
+    Executing:  Job #9 Priority (1) Created at 53, Time Left 2
+Time Marker: 56  waiting: 1
+    Executing:  Job #8 Priority (2) Created at 52, Time Left 1
+    Completed: Job #8 at time 56
+Time Marker: 57  waiting: 1
+    Created:  Job #11 Priority (3) Created at 57, Time Left 5
+    Executing:  Job #9 Priority (1) Created at 53, Time Left 1
+    Completed: Job #9 at time 57
+Time Marker: 58  waiting: 1
+    Executing:  Job #11 Priority (3) Created at 57, Time Left 5
+Time Marker: 59  waiting: 1
+    Executing:  Job #11 Priority (3) Created at 57, Time Left 4
+Time Marker: 60  waiting: 1
+    Created:  Job #12 Priority (4) Created at 60, Time Left 2
+    Executing:  Job #11 Priority (3) Created at 57, Time Left 3
+Time Marker: 61  waiting: 1
+    Executing:  Job #10 Priority (4) Created at 54, Time Left 5
+Time Marker: 62  waiting: 1
+    Executing:  Job #10 Priority (4) Created at 54, Time Left 4
+Time Marker: 63  waiting: 1
+    Executing:  Job #10 Priority (4) Created at 54, Time Left 3
+Time Marker: 64  waiting: 1
+    Executing:  Job #11 Priority (3) Created at 57, Time Left 2
+Time Marker: 65  waiting: 1
+    Executing:  Job #11 Priority (3) Created at 57, Time Left 1
+    Completed: Job #11 at time 65
+Time Marker: 66  waiting: 1
+    Executing:  Job #12 Priority (4) Created at 60, Time Left 2
+Time Marker: 67  waiting: 1
+    Executing:  Job #12 Priority (4) Created at 60, Time Left 1
+    Completed: Job #12 at time 67
+Time Marker: 68  waiting: 0
+    Executing:  Job #10 Priority (4) Created at 54, Time Left 2
+Time Marker: 69  waiting: 0
+    Created:  Job #13 Priority (4) Created at 69, Time Left 2
+    Executing:  Job #10 Priority (4) Created at 54, Time Left 1
+    Completed: Job #10 at time 69
+Time Marker: 70  waiting: 0
+    Executing:  Job #13 Priority (4) Created at 69, Time Left 2
+Time Marker: 71  waiting: 0
+    Executing:  Job #13 Priority (4) Created at 69, Time Left 1
+    Completed: Job #13 at time 71
+Time Marker: 72  waiting: 0
+    Executing: NONE
+Time Marker: 73  waiting: 0
+    Executing: NONE
+Time Marker: 74  waiting: 0
+    Executing: NONE
+Time Marker: 75  waiting: 0
+    Created:  Job #14 Priority (2) Created at 75, Time Left 5
+    Executing:  Job #14 Priority (2) Created at 75, Time Left 5
+Time Marker: 76  waiting: 0
+    Created:  Job #15 Priority (1) Created at 76, Time Left 4
+    Executing:  Job #15 Priority (1) Created at 76, Time Left 4
+Time Marker: 77  waiting: 1
+    Executing:  Job #15 Priority (1) Created at 76, Time Left 3
+Time Marker: 78  waiting: 1
+    Executing:  Job #15 Priority (1) Created at 76, Time Left 2
+Time Marker: 79  waiting: 0
+    Created:  Job #16 Priority (4) Created at 79, Time Left 2
+    Executing:  Job #14 Priority (2) Created at 75, Time Left 4
+Time Marker: 80  waiting: 1
+    Executing:  Job #14 Priority (2) Created at 75, Time Left 3
+Time Marker: 81  waiting: 1
+    Executing:  Job #14 Priority (2) Created at 75, Time Left 2
+Time Marker: 82  waiting: 1
+    Executing:  Job #15 Priority (1) Created at 76, Time Left 1
+    Completed: Job #15 at time 82
+Time Marker: 83  waiting: 1
+    Executing:  Job #14 Priority (2) Created at 75, Time Left 1
+    Completed: Job #14 at time 83
+Time Marker: 84  waiting: 0
+    Executing:  Job #16 Priority (4) Created at 79, Time Left 2
+Time Marker: 85  waiting: 0
+    Created:  Job #17 Priority (3) Created at 85, Time Left 4
+    Executing:  Job #17 Priority (3) Created at 85, Time Left 4
+Time Marker: 86  waiting: 1
+    Executing:  Job #17 Priority (3) Created at 85, Time Left 3
+Time Marker: 87  waiting: 1
+    Executing:  Job #17 Priority (3) Created at 85, Time Left 2
+Time Marker: 88  waiting: 0
+    Executing:  Job #16 Priority (4) Created at 79, Time Left 1
+    Completed: Job #16 at time 88
+Time Marker: 89  waiting: 0
+    Executing:  Job #17 Priority (3) Created at 85, Time Left 1
+    Completed: Job #17 at time 89
+Time Marker: 90  waiting: 0
+    Created:  Job #18 Priority (4) Created at 90, Time Left 3
+    Executing:  Job #18 Priority (4) Created at 90, Time Left 3
+Time Marker: 91  waiting: 0
+    Executing:  Job #18 Priority (4) Created at 90, Time Left 2
+Time Marker: 92  waiting: 0
+    Created:  Job #19 Priority (1) Created at 92, Time Left 1
+    Executing:  Job #19 Priority (1) Created at 92, Time Left 1
+    Completed: Job #19 at time 92
+Time Marker: 93  waiting: 0
+    Created:  Job #20 Priority (3) Created at 93, Time Left 2
+    Executing:  Job #20 Priority (3) Created at 93, Time Left 2
+Time Marker: 94  waiting: 1
+    Created:  Job #21 Priority (3) Created at 94, Time Left 1
+    Executing:  Job #20 Priority (3) Created at 93, Time Left 1
+    Completed: Job #20 at time 94
+Time Marker: 95  waiting: 1
+    Executing:  Job #21 Priority (3) Created at 94, Time Left 1
+    Completed: Job #21 at time 95
+Time Marker: 96  waiting: 0
+    Created:  Job #22 Priority (4) Created at 96, Time Left 2
+    Executing:  Job #18 Priority (4) Created at 90, Time Left 1
+    Completed: Job #18 at time 96
+Time Marker: 97  waiting: 0
+    Executing:  Job #22 Priority (4) Created at 96, Time Left 2
+Time Marker: 98  waiting: 0
+    Created:  Job #23 Priority (1) Created at 98, Time Left 5
+    Executing:  Job #23 Priority (1) Created at 98, Time Left 5
+Time Marker: 99  waiting: 1
+    Created:  Job #24 Priority (4) Created at 99, Time Left 3
+    Executing:  Job #23 Priority (1) Created at 98, Time Left 4
+
+*************** Final Report: ***************
+Active jobs:
+ Job #23 Priority (1) Created at 98, Time Left 3
+ Job #22 Priority (4) Created at 96, Time Left 1
+ Job #24 Priority (4) Created at 99, Time Left 3
+
+The number of jobs currently executing is 3
+The number of completed jobs is 22
+The total number of jobs is 25Other 25
+The average time left for unfinished jobs is 2.3333333333333335
+
+***END OF SIMULATION***
+
+
+Process finished with exit code 0
+
+
+
+
+
+
+
+
+************SORT BY LENGTH***********

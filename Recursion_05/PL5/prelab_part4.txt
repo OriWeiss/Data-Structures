@@ -1,0 +1,92 @@
+Author: Ori Weiss
+Date 2/21/2018
+
+//trace figure 7-3
+// Client
+public static void main(...)
+{
+ countDown(5);
+ ...
+} // end main
+public static void countDown(5)
+{
+ System.out.println(5); . . . . . . . . . . . . . . . . . . . . 5 is displayed
+ if (5 > 1)
+ countDown(5 – 1);
+} // end countDown
+public static void countDown(4)
+{
+ System.out.println(4); . . . . . . . . . . . . . . . . . . . . 4 is displayed
+ if (4 > 1)
+ countDown(4 – 1);
+} // end countDown
+public static void countDown(3)
+{
+ System.out.println(3); . . . . . . . . . . . . . . . . . . . . 3 is displayed
+ if (3 > 1)
+public static void countDown(2)
+{
+ System.out.println(2); . . . . . . . . . . . . . . . . . . . . 2 is displayed
+ if (2 > 1)
+ countDown(2 – 1);
+} // end countDown
+public static void countDown(1)
+{
+ System.out.println(1); . . . . . . . . . . . . . . . . . . . . 1 is displayed
+ if (3 > 1)
+} // end countDown
+
+
+//trace figure 7-4
+
+    private static void countUp(int 5)
+    {
+        if (5 > 1)
+        {
+            int y = 5 - 1; .........................................y is equal to 4
+            countUp(4);
+            System.out.println(5); .................................
+        }
+    }
+    private static void countUp(int 4)
+    {
+        if (4 > 1)
+        {
+            int y = 4 - 1; .........................................y is equal to 3
+            countUp(3);
+            System.out.println(4);
+        }
+    }
+        private static void countUp(int 3)
+        {
+            if (3 > 1)
+            {
+                int y = 3 - 1; .........................................y is equal to 2
+                countUp(2);
+                System.out.println(3);
+            }
+        }
+    private static void countUp(int 2)
+    {
+        if (2 > 1)
+        {
+            int y = 2 - 1; .........................................y is equal to 1
+            countUp(1);
+            System.out.println(2);
+        }
+    }
+    private static void countUp(int 5)
+    {
+        if (5 > 1)
+        {
+            int y = 5 - 1; .........................................y is equal to 4
+            countUp(4);
+            System.out.println(5);
+        }
+    }
+    private static void countUp(int n)
+    {
+     else
+      {
+                System.out.println(1);
+      }

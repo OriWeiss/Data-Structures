@@ -1,0 +1,91 @@
+Author: Ori Weiss
+Date:5/1/2018
+
+MESSAGE4.txt
+"C:\Program Files\Java\jdk1.8.0_161\bin\java" "-javaagent:C:\Program Files (x86)\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar=52709:C:\Program Files (x86)\IntelliJ IDEA 2017.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Users\Ori's Lenovo\Desktop\School\comp_151\lab_13\out\production\lab_13" Lab13.EncodeApplication
+The message lines are:
+Jill Dill
+
+---> Count of character   is 1
+---> Count of character D is 1
+---> Count of character J is 1
+---> Count of character i is 2
+---> Count of character l is 4
+
+Creating 5 initial trees
+Building Huffman Tree
+--->Smallest tree moved to the position 4
+--->Second smallest tree moved to the position 3
+--->Combined tree added at position 3
+--->Smallest tree moved to the position 3
+--->Second smallest tree moved to the position 2
+--->Combined tree added at position 2
+--->Smallest tree moved to the position 2
+--->Second smallest tree moved to the position 1
+--->Combined tree added at position 1
+--->Smallest tree moved to the position 1
+--->Second smallest tree moved to the position 0
+--->Combined tree added at position 0
+
+Huffman Tree:
+[l,  , D, J, i] -> 9
+[l] -> 4
+[ , D, J, i] -> 5
+[ , D] -> 2
+[ ] -> 1
+[D] -> 1
+[J, i] -> 3
+[J] -> 1
+[i] -> 2
+
+The coded lines are (displaying 80 characters per line):
+110 111 0 0 100 101 111 0 0
+
+
+Process finished with exit code 0
+
+
+
+MESSAGE1.TXT
+"C:\Program Files\Java\jdk1.8.0_161\bin\java" "-javaagent:C:\Program Files (x86)\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar=52727:C:\Program Files (x86)\IntelliJ IDEA 2017.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Users\Ori's Lenovo\Desktop\School\comp_151\lab_13\out\production\lab_13" Lab13.EncodeApplication
+The message lines are:
+ABRACADABRA
+ABBA
+
+---> Count of character A is 7
+---> Count of character B is 4
+---> Count of character C is 1
+---> Count of character D is 1
+---> Count of character R is 2
+
+Creating 5 initial trees
+Building Huffman Tree
+--->Smallest tree moved to the position 4
+--->Second smallest tree moved to the position 3
+--->Combined tree added at position 3
+--->Smallest tree moved to the position 3
+--->Second smallest tree moved to the position 2
+--->Combined tree added at position 2
+--->Smallest tree moved to the position 2
+--->Second smallest tree moved to the position 1
+--->Combined tree added at position 1
+--->Smallest tree moved to the position 1
+--->Second smallest tree moved to the position 0
+--->Combined tree added at position 0
+
+Huffman Tree:
+[A, B, R, C, D] -> 15
+[A] -> 7
+[B, R, C, D] -> 8
+[B] -> 4
+[R, C, D] -> 4
+[R] -> 2
+[C, D] -> 2
+[C] -> 1
+[D] -> 1
+
+The coded lines are (displaying 80 characters per line):
+0 10 110 0 1110 0 1111 0 10 110 0 0 10 10 0
+
+
+Process finished with exit code 0

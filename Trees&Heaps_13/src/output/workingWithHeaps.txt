@@ -1,0 +1,37 @@
+Author: Ori Weiss
+Date: 5/1/2018
+
+"C:\Program Files\Java\jdk1.8.0_161\bin\java" "-javaagent:C:\Program Files (x86)\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar=52742:C:\Program Files (x86)\IntelliJ IDEA 2017.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Users\Ori's Lenovo\Desktop\School\comp_151\lab_13\out\production\lab_13" Lab13.WorkingWithHeaps
+How many lists to create?
+20
+Maximum number of elements for the lists?
+7
+
+Created lists:
+8
+8 14 21
+5 9 14 20
+6 9 13 18 24 31
+8 15
+3 8
+<empty>
+2 6 11
+5 10
+6 8 11 15
+5
+6 8 13
+6 11
+2 4 9
+3
+5 8 12
+3 6 10
+4 9
+6
+2 5 9
+
+Merged List:
+2 2 2 3 3 3 4 4 5 5 5 5 5 6 6 6 6 6 6 6 8 8 8 8 8 8 8 9 9 9 9 9 10 10 11 11 11 12 13 13 14 14 15 15 18 20 21 24 31
+
+*** Done ***
+
+Process finished with exit code 0

@@ -1,0 +1,60 @@
+Author: Ori Weiss
+Date: 3/27/2018
+
+"C:\Program Files\Java\jdk1.8.0_161\bin\java" "-javaagent:C:\Program Files (x86)\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar=57436:C:\Program Files (x86)\IntelliJ IDEA 2017.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Users\Ori's Lenovo\Desktop\School\comp_151\lab_08\out\production\lab_08" Lab08.DropoutStack
+**************  TESTING DROPOUT STACK  **************
+
+---->  Adding 20 items to empty stack of capacity of 20
+---->  The content of the stack is:
+[19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+----> The top of the stack is: 19
+
+----> Adding 5 more items to full stack
+push 20
+push 21
+push 22
+push 23
+push 24
+---->  The content of the stack is:
+[24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5]
+----> The top of the stack is: 24
+
+---->  Removing all elements from the stack:
+----> pop 24
+----> pop 23
+----> pop 22
+----> pop 21
+----> pop 20
+----> pop 19
+----> pop 18
+----> pop 17
+----> pop 16
+----> pop 15
+----> pop 14
+----> pop 13
+----> pop 12
+----> pop 11
+----> pop 10
+----> pop 9
+----> pop 8
+----> pop 7
+----> pop 6
+----> pop 5
+The stack is empty
+----> The top of the stack is: null
+
+----> Trying to pop from the empty stack
+----> Got back null
+
+----> Trying to peek at the top of the empty stack
+----> Got back null
+
+----> Adding 22 items to empty stack of capacity of 20
+---->  The content of the stack is:
+[21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+
+---->  Clearing the stack with the clear method
+---->  The content of the stack is:
+The stack is empty
+
+Process finished with exit code 0

@@ -1,0 +1,44 @@
+Author: Ori Weiss
+Date 4/3/2018
+
+"C:\Program Files\Java\jdk1.8.0_161\bin\java" "-javaagent:C:\Program Files (x86)\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar=61213:C:\Program Files (x86)\IntelliJ IDEA 2017.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Users\Ori's Lenovo\Desktop\School\comp_151\untitled\out\production\lab_09" Lab09.ArrayStackWithIterator
+Creating a stack
+
+Creating a stackIterator
+
+Calling stackIterator.next())
+Exception caught "Illegal call to next()"
+
+Adding to stack Jim, Jess, Jill, Jane, Joe
+
+Accessing the top entry with iterator
+hasNext() returned false
+
+Resetting the iterator
+The stack contains (from top to bottom):
+Joe
+Jane
+Jill
+Jess
+Jim
+
+Adding to stack John
+peek() returns: John
+hasNext() returned false
+
+Resetting the iterator
+The stack contains (from top to bottom):
+John
+Joe
+Jane
+Jill
+Jess
+Jim
+
+Calling stackIterator.remove())
+Exception caught "remove operation is not supported by this stack iterator."
+
+
+Done.
+
+Process finished with exit code 0

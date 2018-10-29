@@ -1,0 +1,125 @@
+Author: Ori Weiss
+1/30/2018
+
+"C:\Program Files\Java\jdk-9.0.4\bin\java" "-javaagent:C:\Users\Ori's Lenovo\Desktop\code\comp_151\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar=57929:C:\Users\Ori's Lenovo\Desktop\code\comp_151\IntelliJ IDEA 2017.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Ori's Lenovo\Desktop\code\comp_151\lab_01(00)\out\production\lab_01" Hydra
+What is the initial string?
+Hydra
+The initial string: " Hydra"
+
+*** Removing head from the Hydra ***
+
+Removed: Hydra
+[ydra, ydra]
+
+Removed: ydra
+[ydra, dra, dra]
+
+Removed: dra
+[ydra, dra, ra, ra]
+
+Removed: ra
+[ydra, dra, ra, a, a]
+
+Removed: a
+The removed head is of length 1, no new heads will be added - 4 heads remaining
+[ydra, dra, ra, a]
+
+Removed: a
+The removed head is of length 1, no new heads will be added - 3 heads remaining
+[ydra, dra, ra]
+
+Removed: ra
+[ydra, dra, a, a]
+
+Removed: a
+The removed head is of length 1, no new heads will be added - 3 heads remaining
+[ydra, dra, a]
+
+Removed: a
+The removed head is of length 1, no new heads will be added - 2 heads remaining
+[ydra, dra]
+
+Removed: dra
+[ydra, ra, ra]
+
+Removed: ra
+[ydra, ra, a, a]
+
+Removed: a
+The removed head is of length 1, no new heads will be added - 3 heads remaining
+[ydra, ra, a]
+
+Removed: a
+The removed head is of length 1, no new heads will be added - 2 heads remaining
+[ydra, ra]
+
+Removed: ra
+[ydra, a, a]
+
+Removed: a
+The removed head is of length 1, no new heads will be added - 2 heads remaining
+[ydra, a]
+
+Removed: a
+The removed head is of length 1, no new heads will be added - 1 heads remaining
+[ydra]
+
+Removed: ydra
+[dra, dra]
+
+Removed: dra
+[dra, ra, ra]
+
+Removed: ra
+[dra, ra, a, a]
+
+Removed: a
+The removed head is of length 1, no new heads will be added - 3 heads remaining
+[dra, ra, a]
+
+Removed: a
+The removed head is of length 1, no new heads will be added - 2 heads remaining
+[dra, ra]
+
+Removed: ra
+[dra, a, a]
+
+Removed: a
+The removed head is of length 1, no new heads will be added - 2 heads remaining
+[dra, a]
+
+Removed: a
+The removed head is of length 1, no new heads will be added - 1 heads remaining
+[dra]
+
+Removed: dra
+[ra, ra]
+
+Removed: ra
+[ra, a, a]
+
+Removed: a
+The removed head is of length 1, no new heads will be added - 2 heads remaining
+[ra, a]
+
+Removed: a
+The removed head is of length 1, no new heads will be added - 1 heads remaining
+[ra]
+
+Removed: ra
+[a, a]
+
+Removed: a
+The removed head is of length 1, no new heads will be added - 1 heads remaining
+[a]
+
+Removed: a
+The removed head is of length 1, no new heads will be added - 0 heads remaining
+[]
+
+
+The table is empty!!!
+
+The time required was 25 milliseconds
+
+Process finished with exit code 0

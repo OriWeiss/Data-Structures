@@ -1,0 +1,86 @@
+Author: Ori Weiss
+Date: 2/27/2018
+
+"C:\Program Files\Java\jdk1.8.0_161\bin\java" "-javaagent:C:\Users\Ori's Lenovo\Desktop\code\comp_151\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar=52015:C:\Users\Ori's Lenovo\Desktop\code\comp_151\IntelliJ IDEA 2017.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Users\Ori's Lenovo\Desktop\code\comp_151\lab_05\lab05\out\production\lab05" Lab05.StringsOfNumbers
+Please enter an integer value of n representing the number of digits in a string
+3
+
+Generating binary-Strings:
+000
+001
+010
+011
+100
+101
+110
+111
+
+Please enter an integer value k; strings of length n will be drown from 0..k-1
+4
+Generating k-Strings:
+000
+001
+002
+003
+010
+011
+012
+013
+020
+021
+022
+023
+030
+031
+032
+033
+100
+101
+102
+103
+110
+111
+112
+113
+120
+121
+122
+123
+130
+131
+132
+133
+200
+201
+202
+203
+210
+211
+212
+213
+220
+221
+222
+223
+230
+231
+232
+233
+300
+301
+302
+303
+310
+311
+312
+313
+320
+321
+322
+323
+330
+331
+332
+333
+
+Process finished with exit code 0

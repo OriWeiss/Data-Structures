@@ -1,0 +1,13 @@
+Tony,123 Main Line,555-0469,123-45-6789,222423.07
+Executive,Anthony,123 Main Line,555-0469,123-45-6789,222423.07
+Executive,Paulie,456 Off Line,555-0101,987-65-4321,123456.78
+Executive,Mark,456 Off Line,555-0101,123456.78,987-65-4321
+Hourly,Victor,789 Off Rocker,555-0000,010-20-3040,69.23
+Hourly,Michael,678 Fifth Ave.,555-0690,958-47-3625,100.55
+Hourly,Mary,6 Sixth Ave.,555-6666,123456789,160.66
+Hourly,Carl,6 Sixth Ave.,555-6666,123456789
+Hourly,Ellen,4 Rainbow,555-1234,310-28-3145,157.65
+Monthly,Jillian,123 Main Line,555-0469,123-45-6789,2224.07
+Hourly,Tomas, 678 Seven Ave.,555-2692,321-44-6622,95.50
+Volunteer,Adrianna,987 Sunset Blvd.,555-8374,576-23-5689
+Volunteer,Benny,321 Sunflower Lane,555-7282,375-22-9056

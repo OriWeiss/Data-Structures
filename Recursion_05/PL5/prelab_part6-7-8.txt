@@ -1,0 +1,45 @@
+Author: Ori Weiss
+Date: 2/21/2018
+
+PART 6
+345 to base 8
+
+base case: if decimal number being converted = 0
+             do nothing (or return "")
+
+Recursive case: if decimal number being converted > 0
+                    number/8
+                    solve a simpler version of the problem by using the quotient as the argument to the next call
+                    store the current remainder (number % 8) in the correct place
+
+345 to base 2
+
+base case: if decimal number being converted = 0
+             do nothing (or return "")
+
+Recursive case: if decimal number being converted > 0
+                    number/2
+                    use the quotient as the argument to the next call
+                    store the current remainder (number % 2) in the correct place
+
+
+
+PART 7
+
+one argument must be taken in number of spots
+
+base case: slots are are filled with 1
+
+Recursive case: add one to the next spot
+                if spot on left has one
+                    reset and keep a one at next spot without changing
+
+PART 8
+
+base case: no more numbers
+
+Recursive case: if number is even do not count middle number
+                take the amount of number and divide by 2
+                find the position of the number you're checking
+                start with -1 index of that number and compare
+                as you move down the line increment -1 index by -1 each time you move

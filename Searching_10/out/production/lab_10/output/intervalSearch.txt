@@ -1,0 +1,65 @@
+Author: Ori Weiss
+Date:4/10/2018
+
+"C:\Program Files\Java\jdk1.8.0_161\bin\java" "-javaagent:C:\Program Files (x86)\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar=50146:C:\Program Files (x86)\IntelliJ IDEA 2017.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Users\Ori's Lenovo\Desktop\School\comp_151\lab_10\out\production\lab_10" Lab10.IntervalSearch
+How many elements in the array?
+17
+The sorted data is:
+[0]=6  [1]=10  [2]=15  [3]=19  [4]=19  [5]=23  [6]=31  [7]=40  [8]=40  [9]=44  [10]=44  [11]=46  [12]=54  [13]=55  [14]=60  [15]=62  [16]=63
+Enter the list of integer values separated by spaces (all on one line), or just press enter if you are done.
+44
+Inside the findInterval method - you need to implement me iteratively
+Smallest target is 44; largest target is 44
+	Left: 9 Middle: 8 Right: 16
+	Left: 9 Middle: 12 Right: 11
+	Left: 9 Middle: 10 Right: 11
+	Left: 9 Middle: 12 Right: 11
+	Left: 9 Middle: 10 Right: 11
+The interval is: (9, 10)
+
+Enter the list of integer values separated by spaces (all on one line), or just press enter if you are done.
+19
+Inside the findInterval method - you need to implement me iteratively
+Smallest target is 19; largest target is 19
+	Left: 0 Middle: 8 Right: 7
+	Left: 0 Middle: 3 Right: 7
+	Left: 3 Middle: 9 Right: 8
+	Left: 3 Middle: 5 Right: 4
+	Left: 3 Middle: 3 Right: 4
+The interval is: (3, 4)
+
+Enter the list of integer values separated by spaces (all on one line), or just press enter if you are done.
+40
+Inside the findInterval method - you need to implement me iteratively
+Smallest target is 40; largest target is 40
+	Left: 0 Middle: 8 Right: 16
+	Left: 7 Middle: 11 Right: 10
+	Left: 7 Middle: 8 Right: 10
+The interval is: (7, 8)
+
+Enter the list of integer values separated by spaces (all on one line), or just press enter if you are done.
+19 44
+Inside the findInterval method - you need to implement me iteratively
+Smallest target is 19; largest target is 44
+	Left: 0 Middle: 8 Right: 7
+	Left: 0 Middle: 3 Right: 7
+	Left: 3 Middle: 9 Right: 16
+The interval is: (3, 10)
+
+Enter the list of integer values separated by spaces (all on one line), or just press enter if you are done.
+20 41
+Inside the findInterval method - you need to implement me iteratively
+Smallest target is 20; largest target is 41
+	Left: 0 Middle: 8 Right: 7
+	Left: 4 Middle: 3 Right: 7
+	Left: 4 Middle: 5 Right: 4
+	Left: 5 Middle: 4 Right: 4
+	Left: 4 Middle: 10 Right: 9
+	Left: 7 Middle: 6 Right: 9
+	Left: 9 Middle: 8 Right: 9
+	Left: 9 Middle: 9 Right: 8
+The interval is: (4, 9)
+
+Enter the list of integer values separated by spaces (all on one line), or just press enter if you are done.
+
+Process finished with exit code 1

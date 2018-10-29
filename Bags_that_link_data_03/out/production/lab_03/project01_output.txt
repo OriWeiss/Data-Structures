@@ -1,0 +1,29 @@
+//Author: Ori Weiss
+//Date: 2/13/2018
+
+"C:\Program Files\Java\jdk1.8.0_161\bin\java" "-javaagent:C:\Users\Ori's Lenovo\Desktop\code\comp_151\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar=56473:C:\Users\Ori's Lenovo\Desktop\code\comp_151\IntelliJ IDEA 2017.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Users\Ori's Lenovo\Desktop\code\comp_151\lab_03\out\production\lab_03" Lab_03.LinkedSetWithLinkedBag
+Creating aSet and adding to it elements from inputData: [A, B, C, D, A, C, B, B]
+D C B A
+There are 4 element(s) in the bag.
+Clearing aSet
+The bag is empty.
+aSet isEmpty returns true
+
+Creating set1 and set2
+
+Adding elements to set1
+set1 is
+C B A
+There are 3 element(s) in the bag.
+Adding elements to set2
+set2 is
+D C B A
+There are 4 element(s) in the bag.
+set1 contains A: true
+set1 contains E: false
+After removing B from set1,
+C A
+There are 2 element(s) in the bag.After removing C from set1,
+A
+There are 1 element(s) in the bag.
+Process finished with exit code 0

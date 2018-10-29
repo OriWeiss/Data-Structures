@@ -1,0 +1,73 @@
+Author: Ori Weiss
+Date: 4/10/2018
+
+"C:\Program Files\Java\jdk1.8.0_161\bin\java" "-javaagent:C:\Program Files (x86)\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar=50162:C:\Program Files (x86)\IntelliJ IDEA 2017.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Users\Ori's Lenovo\Desktop\School\comp_151\lab_10\out\production\lab_10" Lab10.TrinarySearch
+Accounts are:
+[0] 5658845
+[1] 8080152
+[2] 1005231
+[3] 4520125
+[4] 4562555
+[5] 6545231
+[6] 7895122
+[7] 5552012
+[8] 3852085
+[9] 8777541
+[10] 5050552
+[11] 7576651
+[12] 8451277
+[13] 7825877
+[14] 7881200
+[15] 1302850
+[16] 1250255
+[17] 4581002
+Sorted accounts are:
+[0] 1005231
+[1] 1250255
+[2] 1302850
+[3] 3852085
+[4] 4520125
+[5] 4562555
+[6] 4581002
+[7] 5050552
+[8] 5552012
+[9] 5658845
+[10] 6545231
+[11] 7576651
+[12] 7825877
+[13] 7881200
+[14] 7895122
+[15] 8080152
+[16] 8451277
+[17] 8777541
+
+trinarySearch: element 7881200 is found true
+   PASS
+
+trinarySearch: element 7881199 is found false
+   PASS
+
+trinarySearch: element 7881201 is found false
+   PASS
+
+trinarySearch: element 2222222 is found false
+   PASS
+
+trinarySearch: element 9999999 is found false
+   PASS
+
+trinarySearch: element 0000000 is found false
+   PASS
+
+trinarySearch: element 1111111 is found false
+   PASS
+
+trinarySearch: element 1005231 is found true
+   PASS
+
+trinarySearch: element 8777541 is found true
+   PASS
+
+*** Done ***
+
+Process finished with exit code 0

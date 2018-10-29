@@ -1,0 +1,39 @@
+//Author: Ori Weiss
+//Date: 1/31/2018
+
+"C:\Program Files\Java\jdk-9.0.4\bin\java" "-javaagent:C:\Users\Ori's Lenovo\Desktop\code\comp_151\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar=59067:C:\Users\Ori's Lenovo\Desktop\code\comp_151\IntelliJ IDEA 2017.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Ori's Lenovo\Desktop\code\comp_151\lab_02\out\production\lab_02" ArraySetWithResizableArrayBag
+Creating aSet with the secondary constructor - capacity of 8
+Adding elements from inputData to aSet
+There are 4 element(s): A B C D
+
+Clearing aSet
+The bag is empty
+aSet isEmpty returns true
+The size of aSet is 0
+
+Creating set1 with default constructor
+
+set1 initially empty, capacity of 3:
+The bag is empty
+
+Adding elements to set1
+
+set1 after adding elements:
+There are 3 element(s): A B C
+
+set1 after adding more elements which should trigger resizing:
+There are 10 element(s): A B C V T U W X Y Z
+
+Creating set2 with the secondary constructor that takes an array as input
+Adding more elements to set2
+set2 after adding and resizing:
+There are 8 element(s): A B C D E F G H
+
+set1 contains A: true
+set1 contains E: false
+After removing B from set1:
+There are 9 element(s): A Z C V T U W X Y
+After removing Y from set1:
+There are 8 element(s): A Z C V T U W X
+
+Process finished with exit code 0

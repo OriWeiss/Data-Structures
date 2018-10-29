@@ -1,0 +1,280 @@
+1)
+				80 90 70 85 60 40 50 95
+   80 90 70 85						60 40 50 95							
+80  90    70  85				   60  40     50  95
+	80 90    70 85					40 60     50 95
+	70 80 85 90						40  50  60  95
+			40 50 60 70 80 85 90 95
+
+2)
+a) 
+b) 
+c)
+d)
+
+5)
+
+783 99 472 182 264 543 356 295 692 491 94
+ADD 0 to make 3 digits
+783 099 472 182 264 543 356 295 692 491 094
+
+FIRST SORT
+0Bucket
+1Bucket 491 
+2Bucket 472 182 692
+3Bucket 543 783
+4Bucket 264 094
+5Bucket 295
+6Bucket 356
+7Bucket 
+8Bucket 
+9Bucket 099
+
+ReShuffle Array
+
+491 472 182 692 543 783 264 094 295 356 099
+
+SECOND SORT
+
+0Bucket 
+1Bucket 
+2Bucket 
+3Bucket 
+4Bucket 543
+5Bucket 356
+6Bucket 264
+7Bucket 472 
+8Bucket 182 783
+9Bucket 491 692 094 295 099
+
+ReShuffle Array
+
+543 356 264 472 182 783 491 692 094 285 099
+
+THIRD SORT
+
+0Bucket 094 099
+1Bucket 182
+2Bucket 264 285
+3Bucket 356
+4Bucket 472 491
+5Bucket 543
+6Bucket 692
+7Bucket 783
+8Bucket 
+9Bucket 
+
+ReShuffle Array FINAL ANSWER
+094 099 182 264 285 356 472 491 543 692 783 
+
+
+
+6)
+
+joke book back dig desk word fish ward dish wit deed fast dog bend
+
+
+Add _ to words > 4
+joke book back _dig desk word fish ward dish _wit deed fast _dog bend
+ 
+ABucket
+BBucket
+CBucket
+DBucket word ward _wit deed bend
+EBucket joke
+FBucket
+GBucket _dig _dog
+HBucket fish dish
+IBucket
+JBucket
+KBucket book back desk
+LBucket
+MBucket
+NBucket
+OBucket
+PBucket
+QBucket
+RBucket
+SBucket
+TBucket fast
+UBucket
+VBucket
+WBucket
+XBucket
+YBucket
+ZBucket
+
+ReShuffle Array
+
+word ward _wit deed bend joke _dig _dog fish dish book back desk fast
+
+
+SECOND PASS
+ABucket
+BBucket
+CBucket back
+DBucket
+EBucket deed
+FBucket
+GBucket
+HBucket
+IBucket _wit _dig
+JBucket
+KBucket joke
+LBucket
+MBucket
+NBucket bend
+OBucket _dog book
+PBucket
+QBucket
+RBucket word ward
+SBucket fish dish desk fast
+TBucket
+UBucket
+VBucket
+WBucket
+XBucket
+YBucket
+ZBucket
+
+ReShuffle Array
+
+back deed _wit _dig joke bend _dog book word ward fish dish desk fast
+
+Third Pass
+ABucket back ward fast
+BBucket
+CBucket
+DBucket  _dig _dog
+EBucket  deed bend desk
+FBucket
+GBucket
+HBucket
+IBucket fish dish
+JBucket
+KBucket
+LBucket
+MBucket
+NBucket
+OBucket joke book word
+PBucket
+QBucket
+RBucket
+SBucket
+TBucket
+UBucket
+VBucket
+WBucket _wit
+XBucket
+YBucket
+ZBucket
+
+ReShuffle Array
+
+back ward fast deed _dig _dog bend desk fish dish joke book word _wit
+
+LAST PASS
+
+if_ look at word letter before and place
+ABucket
+BBucket back bend book
+CBucket
+DBucket deed desk _dig dish _dog
+EBucket
+FBucket fast fish
+GBucket
+HBucket
+IBucket
+JBucket joke
+KBucket
+LBucket
+MBucket
+NBucket
+OBucket
+PBucket
+QBucket
+RBucket
+SBucket
+TBucket
+UBucket
+VBucket
+WBucket ward _wit word
+XBucket
+YBucket
+ZBucket
+
+Final Answer
+
+back bend book deed desk _dig dish _dog fast fish joke ward _wit word
+
+
+
+Pseudocode
+
+//KthItem(a[],k,first, last)
+
+                //call partition; set to pivotIndex
+
+                //if pivot  = k
+
+                                //return pivot
+
+                //else if pivot > k
+
+                                //kthItem(a[],k,first,pivot-1)
+
+                //else
+
+                                //KthItem(a[],k,pivot+1,last)
+
+ 
+
+Pseudocode for project #3:
+
+ 
+
+//BinaryRadix(a[],maxNum)
+
+//pad zeros to each number in a based on maxNum
+
+//Declare int, set to 1
+
+//for num = 0; maxNum.size(maybe); i++
+
+                //create another array for storing 0’s or 1’s
+
+                //int j = 0
+
+                //for i=0; length of a
+
+                                //if a[i] & int = 1(or 0)
+
+                                                //temp[j] = a[i]
+
+                                                //increment j, j++
+
+                                //else
+
+                                                //a[i-j] = a[i]
+
+                //for k =j; k < length of temp
+
+                                //dump a[] in temp
+
+                //shift index to the right by 1 “<< ‘1’>>”
+
+Pseudocode for project #4:
+
+//FindNinePivots( indexes[], a[], first, mid, last, size)
+
+//if last – first = a.length /8
+
+                //add first to indexes
+
+                //add last to indexes(?)
+
+//else (last-first > a.length /8)
+
+                //findNinePivots(indexes, a, first, first +( (mid-first) / 2), mid, size)             
+
+                //findNinePivots(indexes , a, mid+1, (mid +1)+((last – (mid+1) )/2), last, size)

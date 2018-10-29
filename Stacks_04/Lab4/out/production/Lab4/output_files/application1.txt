@@ -1,0 +1,60 @@
+Author: Ori Weiss
+Date: 2/20/2018
+
+"C:\Program Files\Java\jdk1.8.0_161\bin\java" "-javaagent:C:\Users\Ori's Lenovo\Desktop\code\comp_151\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar=62428:C:\Users\Ori's Lenovo\Desktop\code\comp_151\IntelliJ IDEA 2017.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Users\Ori's Lenovo\Desktop\code\comp_151\lab_04\Lab4\out\production\Lab4" Lab4.FunWithStack
+*** DECIMAL TO BINARY CONVERTER ***
+DECIMAL TO BINARY CONVERTER
+
+Please enter a positive integer, or type "stop"
+6
+6 in binary is --> 110
+
+Please enter a positive integer, or type "stop"
+12345
+12345 in binary is --> 11000000111001
+
+Please enter a positive integer, or type "stop"
+stop
+Done with conversion.
+
+*** ANCIENT MULTIPLIER ***
+Please enter operand 1:
+12345
+Please enter operand 2:
+6789
+--> Creating the Mapping table:
+8192-->55615488
+4096-->27807744
+2048-->13903872
+1024-->6951936
+512-->3475968
+256-->1737984
+128-->868992
+64-->434496
+32-->217248
+16-->108624
+8-->54312
+4-->27156
+2-->13578
+1-->6789
+--> Calculating the result
+Sum is: 83810205
+*** ELIMINATING ADJACENT DUPLICATES ***
+--> testcase #1
+input = [1, 5, 6, 8, 8, 8, 0, 1, 1, 0, 6, 5]
+result = [1] CORRECT
+
+---> testcase #2
+input = [1, 9, 6, 8, 8, 8, 0, 1, 1, 0, 6, 5]
+result = [1, 9, 5] CORRECT
+
+---> testcase #3
+input = [1, 1, 6, 8, 8, 8, 0, 1, 1, 0, 6, 5]
+result = [5] CORRECT
+
+---> testcase #4
+input = [1, 1, 1, 5, 6, 8, 8, 8, 0, 1, 1, 0, 6, 5]
+result = [] CORRECT
+Done!
+
+Process finished with exit code 0

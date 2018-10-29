@@ -1,0 +1,159 @@
+Author: Ori Weiss
+Date: 1/31/2018
+
+resizableBagArray() //default constructor
+    set equal to default capacity
+
+
+resizableArrayBag() // second constructor
+     check capacity
+     create a temp bag
+     new comparable
+     point my bag to temp bag
+     set number of entries to 0
+     set initialized to true
+
+resizableArrayBag() // third constructor that takes in content and amount of elements
+    check capacity
+    initialize bag
+    initialize number of elements
+    set to initialized
+
+add()
+    check if initialized
+    check if array full and is so double array size
+    add the entry into the bag
+    add 1 to number of entries
+
+toArray()
+    check if initialized
+    create new array
+    create for loop that returns the new array
+
+isEmpty()
+    check if the number of entries == 0
+
+getCurrentSize()
+    return number of elements
+
+getFrequencyOf()
+    check initialization
+    create a counter variable
+    for loop for every entry in list if entry at index equals a given entry
+        add one to counter
+    return counter
+
+contains()
+    check initialization
+    call getIndexOf on an entry and return wheater it is >-1
+
+getIndexOf()
+    create a return variable = 0
+    create a for loop that checks every index for equality
+    if equal set return variable equal to the index
+
+clear()
+    set number of entries to zero
+
+remove()
+    check initialization
+    call remove entry on number of entries - 1
+    return removed entry
+
+removeElement()
+        check initialization
+        get index of an element
+        call removeEntry on that index
+        return wheater the removed entry eqauls the arguments entry
+
+removeEntry()
+    make sure bag is not empty and given index >= 0
+    numberOfEntries--
+    null out the entry in the list
+    return removedEntry
+
+isArrayFull()
+    return wheater numberOfEntries >= capacity
+
+doubleCapacity()
+    multiply bag length by 2
+    check capcity of new bag length
+    copy array into new bag with twice the size
+
+checkCapacity()
+    if the capacity > MAX_Capacity
+        throw an exception
+
+checkInitialization()
+    if initialized
+        return true
+    else
+        return false
+
+display()
+    if numberOfEntries > 0
+        for loop that goes through bag
+        print each index
+
+    else
+        print bag is empty
+
+equals()
+    check if bags are the same size
+        if not return false
+    check each index for equality
+
+removeMax()
+    creat max variableindex
+    check each index of the bag with for loop
+    if index > macVariable
+        maxVariableIndex = index
+    removeEntry(index)
+    catch null pointer
+
+removeEvery()
+    create for loop
+    check every index to see if it equals the argument entry
+    if so call removeEntry on the index
+
+replace()
+    if numberOfEntries > 0
+    call remove
+    add(replacement)
+    return removed object
+
+union()
+    take in other bag as new ResizableArrayBag
+    create new bag to put objects in which is also a new ResizableArrayBag
+    call toArray
+    create for loop(twice) for each bag
+        add elements in each bag into the new ResizableBagArray
+
+intersection()
+    create intersectionBag and copy bag
+    call toArray on both bags
+    cretae for loop
+        get frequency for both bags
+        add items to bag
+    return the interectionBag
+
+difference()
+    make bags into ResizableBagArray
+    call toArray on both bags
+    create for loop to getIndexOf and make sure != -1
+        if not than add into new bag
+    return the new bag
+
+getAllLessThan()
+    create a new ResizableArrayBag
+    call toArray
+    if elementatindex.comparTo(the entry) < 0
+        add index into new bag
+    return the new bag
+
+isSubset()
+    call difference and if null
+        return true
+    else
+        return false
+

@@ -1,0 +1,60 @@
+Author: Ori Weiss
+Date: 4/10/2018
+
+"C:\Program Files\Java\jdk1.8.0_161\bin\java" "-javaagent:C:\Program Files (x86)\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar=50180:C:\Program Files (x86)\IntelliJ IDEA 2017.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Users\Ori's Lenovo\Desktop\School\comp_151\lab_10\out\production\lab_10" Lab10.SortedArrayListWithMode
+IMPLEMENT Part a: manipulating directly the instance variables of SortedArrayListWithMode,find the mode. The mode is the most frequent value.
+NOTE - the list is 1 based!
+---> mode is null; mode count is 0
+The mode of the empty list should be null, got: null
+
+The data has 1 element(s): 9
+IMPLEMENT Part a: manipulating directly the instance variables of SortedArrayListWithMode,find the mode. The mode is the most frequent value.
+NOTE - the list is 1 based!
+---> mode is 9; mode count is 1
+The mode should be 9, got: 9
+
+The data has 2 element(s): 9 13
+IMPLEMENT Part a: manipulating directly the instance variables of SortedArrayListWithMode,find the mode. The mode is the most frequent value.
+NOTE - the list is 1 based!
+---> mode is 9; mode count is 1
+The mode should be 9, got: 9
+
+The data has 3 element(s): 9 13 13
+IMPLEMENT Part a: manipulating directly the instance variables of SortedArrayListWithMode,find the mode. The mode is the most frequent value.
+NOTE - the list is 1 based!
+---> mode is 13; mode count is 2
+The mode should be 13, got: 13
+
+The data has 3 element(s): 9 9 13
+IMPLEMENT Part a: manipulating directly the instance variables of SortedArrayListWithMode,find the mode. The mode is the most frequent value.
+NOTE - the list is 1 based!
+---> mode is 9; mode count is 2
+The mode should be 9, got: 9
+
+The data has 10 element(s): 0 1 2 3 4 5 6 7 8 9
+IMPLEMENT Part a: manipulating directly the instance variables of SortedArrayListWithMode,find the mode. The mode is the most frequent value.
+NOTE - the list is 1 based!
+---> mode is 0; mode count is 1
+The mode should be 0, got: 0
+
+The data has 55 element(s): 0 1 1 2 2 2 3 3 3 3 4 4 4 4 4 5 5 5 5 5 5 6 6 6 6 6 6 6 7 7 7 7 7 7 7 7 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9
+IMPLEMENT Part a: manipulating directly the instance variables of SortedArrayListWithMode,find the mode. The mode is the most frequent value.
+NOTE - the list is 1 based!
+---> mode is 9; mode count is 10
+The mode should be 9, got: 9
+
+The data has 133 element(s): 0 1 1 2 2 2 3 3 3 3 4 4 4 4 4 5 5 5 5 5 5 6 6 6 6 6 6 6 7 7 7 7 7 7 7 7 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9 9 10 10 11 11 11 12 12 12 12 13 13 13 13 13 14 14 14 14 14 14 15 15 15 15 15 15 15 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17 18 18 18 18 18 18 18 18 18 18 19 19 19 19 19 19 19 19 19 19 19 20 20 20 20 20 20 20 20 20 20 20 20
+IMPLEMENT Part a: manipulating directly the instance variables of SortedArrayListWithMode,find the mode. The mode is the most frequent value.
+NOTE - the list is 1 based!
+---> mode is 20; mode count is 12
+The mode should be 20, got: 20
+
+The data has 147 element(s): 0 1 1 2 2 2 3 3 3 3 4 4 4 4 4 5 5 5 5 5 5 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 7 7 7 7 7 7 7 7 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9 9 10 10 11 11 11 12 12 12 12 13 13 13 13 13 14 14 14 14 14 14 15 15 15 15 15 15 15 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17 17 18 18 18 18 18 18 18 18 18 18 19 19 19 19 19 19 19 19 19 19 19 20 20 20 20 20 20 20 20 20 20 20 20
+IMPLEMENT Part a: manipulating directly the instance variables of SortedArrayListWithMode,find the mode. The mode is the most frequent value.
+NOTE - the list is 1 based!
+---> mode is 6; mode count is 21
+The mode should be 6, got: 6
+
+*** Done ***
+
+Process finished with exit code 0

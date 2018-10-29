@@ -1,0 +1,38 @@
+Author: Ori Weiss
+Date: 2/20/2018
+
+"C:\Program Files\Java\jdk1.8.0_161\bin\java" "-javaagent:C:\Users\Ori's Lenovo\Desktop\code\comp_151\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar=62445:C:\Users\Ori's Lenovo\Desktop\code\comp_151\IntelliJ IDEA 2017.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Users\Ori's Lenovo\Desktop\code\comp_151\lab_04\Lab4\out\production\Lab4" Lab4.LinkedStack
+*** Create a stack ***
+--> Add to stack to get: Joe Jane Jill Jess Jim
+
+Done adding 5 elements.
+
+--> Testing peek, peek2, and pop:
+Joe is at the top of the stack.
+Jane is just beneath the top of the stack.
+Joe is removed from the stack.
+
+Jane is at the top of the stack.
+Jill is just beneath the top of the stack.
+Jane is removed from the stack.
+
+Jill is at the top of the stack.
+Jess is just beneath the top of the stack.
+Jill is removed from the stack.
+
+Jess is at the top of the stack.
+Jim is just beneath the top of the stack.
+Jess is removed from the stack.
+
+Jim is at the top of the stack.
+ CORRECT - exception has been thrown: Stack is Empty
+Jim is removed from the stack.
+
+--> The stack should be empty:
+isEmpty() returns true
+ CORRECT - exception has been thrown: Stack is Empty
+ CORRECT - exception has been thrown: Stack is Empty
+ CORRECT - exception has been thrown: Stack is Empty
+*** Done ***
+
+Process finished with exit code 0

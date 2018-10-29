@@ -1,0 +1,80 @@
+Ori Weiss
+"C:\Program Files\Java\jdk1.8.0_161\bin\java" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar=50205:C:\Program Files\JetBrains\IntelliJ IDEA 2017.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Users\Rony\IdeaProjects\Init_project\out\production\Init_project" PayrollClient
+---> Reading staff data from the file
+Processing record: Tony,123 Main Line,555-0469,123-45-6789,222423.07
+Processing record: Executive,Anthony,123 Main Line,555-0469,123-45-6789,222423.07
+Processing record: Executive,Paulie,456 Off Line,555-0101,987-65-4321,123456.78
+Processing record: Executive,Mark,456 Off Line,555-0101,123456.78,987-65-4321
+Input mismatch exception found
+Processing record: Executive,Mark,456 Off Line,555-0101,123456.78,987-65-4321
+No Such Element Exception found
+Processing record: Hourly,Victor,789 Off Rocker,555-0000,010-20-3040,69.23
+Processing record: Hourly,Michael,678 Fifth Ave.,555-0690,958-47-3625,100.55
+Processing record: Hourly,Mary,6 Sixth Ave.,555-6666,123456789,160.66
+Invalid Parameter Exception found
+Processing record: Hourly,Carl,6 Sixth Ave.,555-6666,123456789
+Invalid Parameter Exception found
+Processing record: Hourly,Ellen,4 Rainbow,555-1234,310-28-3145,157.65
+Processing record: Monthly,Jillian,123 Main Line,555-0469,123-45-6789,2224.07
+Processing record: Hourly,Tomas, 678 Seven Ave.,555-2692,321-44-6622,95.50
+Processing record: Volunteer,Adrianna,987 Sunset Blvd.,555-8374,576-23-5689
+Processing record: Volunteer,Benny,321 Sunflower Lane,555-7282,375-22-9056
+---> Finished reading from the file
+
+---> Preparing data for pay day
+
+*** The current staff data for the month of December 2017 ***
+---Executive--- Name: Anthony
+Address 123 Main Line
+Phone: 555-0469
+Social Security Number: 123-45-6789
+Yearly salary of: $19063.255833333333
+Bonus: 528.0
+---Executive--- Name: Paulie
+Address 456 Off Line
+Phone: 555-0101
+Social Security Number: 987-65-4321
+Yearly salary of: $13396.065
+Bonus: 3108.0
+--- Hourly Employee --- Name: Victor
+Address 789 Off Rocker
+Phone: 555-0000
+Social Security Number: 010-20-3040
+Current Hours: 28 at rate of 69.23
+--- Hourly Employee --- Name: Michael
+Address 678 Fifth Ave.
+Phone: 555-0690
+Social Security Number: 958-47-3625
+Current Hours: 110 at rate of 100.55
+--- Hourly Employee --- Name: Ellen
+Address 4 Rainbow
+Phone: 555-1234
+Social Security Number: 310-28-3145
+Current Hours: 37 at rate of 157.65
+--- Hourly Employee --- Name: Tomas
+Address  678 Seven Ave.
+Phone: 555-2692
+Social Security Number: 321-44-6622
+Current Hours: 42 at rate of 95.5
+--- Volunteer --- Name: Adrianna
+Address: 987 Sunset Blvd.
+Phone: 555-8374
+Social Security Number: 576-23-5689
+--- Volunteer --- Name: Benny
+Address: 321 Sunflower Lane
+Phone: 555-7282
+Social Security Number: 375-22-9056
+---> Processing the payroll
+*** Payroll for the month of December 2017 ***
+1. Anthony    --->  19,063.26
+2. Paulie     --->  13,396.07
+3. Victor     --->   1,938.44
+4. Michael    --->  11,060.50
+5. Ellen      --->   5,833.05
+6. Tomas      --->   4,011.00
+7. Adrianna   --->       0.00
+8. Benny      --->       0.00
+***********************************************
+
+
+Process finished with exit code 0

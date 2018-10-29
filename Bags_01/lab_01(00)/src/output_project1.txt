@@ -1,0 +1,160 @@
+Author: Ori Weiss
+1/30/2018
+
+"C:\Program Files\Java\jdk-9.0.4\bin\java" "-javaagent:C:\Users\Ori's Lenovo\Desktop\code\comp_151\IntelliJ IDEA 2017.3.3\lib\idea_rt.jar=57934:C:\Users\Ori's Lenovo\Desktop\code\comp_151\IntelliJ IDEA 2017.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Ori's Lenovo\Desktop\code\comp_151\lab_01(00)\out\production\lab_01" Billiard
+What is the first numbered ball to start with? (must be between 1 and 6 inclusive)
+5
+The first ball is: "5"
+
+*** Removing balls from the table ***
+
+The ball removed is: 5
+After adding 5 we have 5 remaining
+[4, 3, 1, 3, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 4 balls remaining
+[4, 3, 1, 3]
+
+The ball removed is: 3
+After adding 3 we have 6 remaining
+[4, 3, 1, 2, 1, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 5 balls remaining
+[4, 3, 1, 2, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 4 balls remaining
+[4, 3, 1, 2]
+
+The ball removed is: 2
+After adding 2 we have 5 remaining
+[4, 3, 1, 1, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 4 balls remaining
+[4, 3, 1, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 3 balls remaining
+[4, 3, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 2 balls remaining
+[4, 3]
+
+The ball removed is: 3
+After adding 3 we have 4 remaining
+[4, 1, 2, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 3 balls remaining
+[4, 1, 2]
+
+The ball removed is: 2
+After adding 2 we have 4 remaining
+[4, 1, 1, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 3 balls remaining
+[4, 1, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 2 balls remaining
+[4, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 1 balls remaining
+[4]
+
+The ball removed is: 4
+After adding 4 we have 4 remaining
+[1, 3, 2, 3]
+
+The ball removed is: 3
+After adding 3 we have 6 remaining
+[1, 3, 2, 2, 2, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 5 balls remaining
+[1, 3, 2, 2, 2]
+
+The ball removed is: 2
+After adding 2 we have 6 remaining
+[1, 3, 2, 2, 1, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 5 balls remaining
+[1, 3, 2, 2, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 4 balls remaining
+[1, 3, 2, 2]
+
+The ball removed is: 2
+After adding 2 we have 5 remaining
+[1, 3, 2, 1, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 4 balls remaining
+[1, 3, 2, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 3 balls remaining
+[1, 3, 2]
+
+The ball removed is: 2
+After adding 2 we have 4 remaining
+[1, 3, 1, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 3 balls remaining
+[1, 3, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 2 balls remaining
+[1, 3]
+
+The ball removed is: 3
+After adding 3 we have 4 remaining
+[1, 2, 1, 2]
+
+The ball removed is: 2
+After adding 2 we have 5 remaining
+[1, 2, 1, 1, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 4 balls remaining
+[1, 2, 1, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 3 balls remaining
+[1, 2, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 2 balls remaining
+[1, 2]
+
+The ball removed is: 2
+After adding 2 we have 3 remaining
+[1, 1, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 2 balls remaining
+[1, 1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 1 balls remaining
+[1]
+
+The ball removed is: 1
+Removed ball has number "1", no new balls will be added - 0 balls remaining
+[]
+
+
+The table is empty!!!
+
+The time required was 33 milliseconds
+
+Process finished with exit code 0

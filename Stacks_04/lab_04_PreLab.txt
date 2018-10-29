@@ -1,0 +1,68 @@
+Author: Ori Weiss
+Date: 2/15/2018
+
+decimal to binary
+    while > 0
+        create variable a
+        create variable b
+        b = a%2
+        a = a/2
+        push b to stack
+
+
+ancientMultiplier
+    create 2 stacks
+    start with smaller factor
+    while the peek of the stack is > larger stack multiple
+        push 2x the peek output of each stack
+    output sum of smaller stack
+
+noAdjacentDuplicate
+    for every # given
+        check state
+            empty
+                push
+            not empty
+                check top of state if duplicate
+                true
+                    if top = =do nothing
+                false
+                    do nothing
+            check if top of stack == next number
+                true
+                    duplicate = true
+                false
+                    push#
+        is the top a duplicate
+            true
+                pop the top
+            false
+                nothing
+
+
+
+
+Sort
+    create two stacks
+    start with all elements in one stack
+    pop the first element and move to next stack
+    use peek to copare two stacks
+        while
+            if original stack is less than new stack
+                pop and push to new stack
+            else
+                pop the new stack and place card in original stack at bottom of new stack
+
+sortRevised
+    create two stacks
+    move the top entry of original stack to destination stack
+    compare the top entries
+        while original stack !isEmpty
+            if original>destination
+                pop and push to destination
+            else
+                pop and push to original
+
+
+
+//About Tables Please Explain them in class. The weblink provided was very confusing!!
